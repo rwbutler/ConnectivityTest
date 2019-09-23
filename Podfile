@@ -1,0 +1,2 @@
+target 'ConnectivityTest'
+pod 'Connectivity'

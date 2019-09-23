@@ -1,0 +1,6 @@
+module Pods_ConnectivityTest {
+  umbrella header "Pods-ConnectivityTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
