@@ -1,4 +1,4 @@
-module Connectivity {
+framework module Connectivity {
   umbrella header "Connectivity-umbrella.h"
 
   export *

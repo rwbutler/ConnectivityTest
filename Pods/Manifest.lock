@@ -5,12 +5,12 @@ DEPENDENCIES:
   - Connectivity
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Connectivity
 
 SPEC CHECKSUMS:
   Connectivity: ba066ca8d135f0c94adf2179afbf135a9de47cfa
 
-PODFILE CHECKSUM: 248f8a8ec6460e1ca04c262a3f6fb0b34166fa79
+PODFILE CHECKSUM: 4a325fda2f766abb4e795335a07f5d3ffcd66a03
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.8.0

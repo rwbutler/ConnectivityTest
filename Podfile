@@ -1,2 +1,4 @@
+use_frameworks!
 target 'ConnectivityTest'
-pod 'Connectivity'
+  platform :ios, '12.0'
+  pod 'Connectivity'

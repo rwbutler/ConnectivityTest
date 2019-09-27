@@ -1,4 +1,4 @@
-module Pods_ConnectivityTest {
+framework module Pods_ConnectivityTest {
   umbrella header "Pods-ConnectivityTest-umbrella.h"
 
   export *

@@ -14,7 +14,7 @@
 		1382319923390F7E00614BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1382319723390F7E00614BF8 /* LaunchScreen.storyboard */; };
 		138231A423390F7E00614BF8 /* ConnectivityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138231A323390F7E00614BF8 /* ConnectivityTestUITests.swift */; };
 		138231AF2339102800614BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138231AE2339102700614BF8 /* Main.storyboard */; };
-		F343D66C8001B6980C8E1249 /* libPods-ConnectivityTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B916473D01BD0F0E4C78BB90 /* libPods-ConnectivityTest.a */; };
+		619942E4F7843C9B83071CBB /* Pods_ConnectivityTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8D40C902C9902FD311430B /* Pods_ConnectivityTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		138231A523390F7E00614BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		138231AE2339102700614BF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		23E6A0B9157FFA2FC27DA2B0 /* Pods-ConnectivityTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectivityTest.release.xcconfig"; path = "Target Support Files/Pods-ConnectivityTest/Pods-ConnectivityTest.release.xcconfig"; sourceTree = "<group>"; };
-		B916473D01BD0F0E4C78BB90 /* libPods-ConnectivityTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConnectivityTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8D40C902C9902FD311430B /* Pods_ConnectivityTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectivityTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F343D66C8001B6980C8E1249 /* libPods-ConnectivityTest.a in Frameworks */,
+				619942E4F7843C9B83071CBB /* Pods_ConnectivityTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		10419E240DAE2F63C85EA4B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B916473D01BD0F0E4C78BB90 /* libPods-ConnectivityTest.a */,
+				AA8D40C902C9902FD311430B /* Pods_ConnectivityTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +134,7 @@
 				1382318523390F7D00614BF8 /* Sources */,
 				1382318623390F7D00614BF8 /* Frameworks */,
 				1382318723390F7D00614BF8 /* Resources */,
+				7E9C239370743E533DE4C316 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +221,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7E9C239370743E533DE4C316 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConnectivityTest/Pods-ConnectivityTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConnectivityTest/Pods-ConnectivityTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConnectivityTest/Pods-ConnectivityTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9F19EB2C4590B8ABE23A9071 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
